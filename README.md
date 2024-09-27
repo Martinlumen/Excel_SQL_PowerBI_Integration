@@ -11,10 +11,10 @@ The primary objective is to extract meaningful insights from the WHO dataset and
 - **Power BI**: Creating interactive visual reports and dashboards.
 
 ## Project Structure
-- `data/`: Contains the WHO COVID-19 dataset.
-- `sql_queries/`: SQL queries used for data analysis.
-- `power_bi_report/`: Power BI report file (`.pbix`) containing the dashboards.
-- `excel_analysis/`: Excel workbook with data cleaning and preliminary analysis.
+- `data/WHO-COVID-19-global-table-data.csv`: Contains the WHO COVID-19 dataset.
+- `Sql_queries/QUERY PROJECTUS.txt`: SQL queries used for data analysis.
+- `Power_bi_report/POWER BI PROJECT PDF.pdf`: Power BI report file (`.pbix`) containing the dashboards.
+- `Excel_anlysis/WHO_Covid19_Analysis.csv`: Excel workbook with data cleaning and preliminary analysis.
 
 ## Usage
 
