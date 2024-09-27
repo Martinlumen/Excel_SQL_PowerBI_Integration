@@ -31,13 +31,47 @@ The primary objective is to extract meaningful insights from the WHO dataset and
 Power BI Dashboard:
 
 ## Insights
-COVID-19 case trends across different regions.
-Comparative analysis of the outbreak impact between countries.
-Visualization of the global spread and progression over time.
+
+### Global Overview
+**Total Cases**: 1 billion
+**Cases within the Last 7 Days**: 13 million
+**Cases within the Last 24 Hours**: 2 million
+**Total Deaths**: 13 million
+**Deaths within the Last 7 Days**: 23,000
+**Deaths within the Last 24 Hours**: 3,490
+
+### Country-Level Analysis
+**Highest Total Cases (Prevalence)**: The highest number of COVID-19 cases globally was recorded at 0.56 billion.
+**Case Range**: Approximately 221 countries reported between 0 to 10,000 cases, while 4 countries reported no cases.
+**Highest Incidence**: Global remains the country with the highest incidence of COVID-19 over the last 7 days.
+**Highest Incidence Rate per 100,000 Population**: Pitcairn Island recorded the highest incidence rate within the last 7 days.
+**Highest Prevalence Rate per 100,000 Population**: France Island showed the highest prevalence of COVID-19 per 100,000 population.
+
+### Mortality (Deaths) by Country
+**Highest Total Deaths (Mortality)**: Globally, a total of 6 million deaths were recorded.
+**Death Range**: Around 215 countries reported between 0 to 10 deaths, while 8 countries recorded no deaths.
+**Highest Mortality**: Global remains the country with the highest mortality in the last 7 days.
+**Highest Mortality Rate per 100,000 Population**: Germany had the highest mortality rate within the last 7 days.
+**Highest Mortality Rate Overall**: Peru Island showed the highest mortality rate per 100,000 population.
+
+### Regional-Level Analysis
+**Region with Highest Total Cases (Prevalence)**: North America (NA) reported the highest number of cases at 563 million.
+**Case Range by Region**: Only North America reported more than 500,000 cases.
+**Incidence in the Last 7 Days**: North America continues to lead in new cases reported over the last 7 days.
+**Highest Incidence Rate per 100,000 Population**: Europe recorded the highest incidence rate in the last 7 days.
+**Highest Prevalence Rate per 100,000 Population**: Europe also leads in terms of prevalence rate per 100,000 population.
+
+### Mortality (Deaths) by Region
+**Highest Total Mortality**: North America had the highest number of total deaths at 6.4 million.
+**Death Range by Region**: Only North America, Europe, and America reported more than 100 deaths.
+**Highest Mortality in Last 7 Days**: North America remains the region with the highest mortality rate over the last 7 days.
+**Highest Mortality Rate per 100,000 Population**: Europe had the highest mortality rate per 100,000 population at 13,000.
+
+This insight provides a global and regional summary of the COVID-19 situation as per the WHO analysis. The data highlights significant trends in both case prevalence and mortality, offering a comprehensive look at the pandemic's impact across different countries and regions.
 
 ## Contributing
 Contributions are welcome! If you find any issues or improvements, feel free to submit a pull request or open an issue.
 
-Acknowledgments
+## Acknowledgments
 World Health Organization (WHO) for the dataset.
 Microsoft Power BI, Excel, and SQL for making data analysis accessible
