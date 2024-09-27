@@ -27,3 +27,17 @@ The primary objective is to extract meaningful insights from the WHO dataset and
    ```bash
    git clone https://github.com/Martinlumen/Excel_SQL_PowerBI_Integration.git
    
+## Screenshots
+Power BI Dashboard:
+
+## Insights
+COVID-19 case trends across different regions.
+Comparative analysis of the outbreak impact between countries.
+Visualization of the global spread and progression over time.
+
+## Contributing
+Contributions are welcome! If you find any issues or improvements, feel free to submit a pull request or open an issue.
+
+Acknowledgments
+World Health Organization (WHO) for the dataset.
+Microsoft Power BI, Excel, and SQL for making data analysis accessible
