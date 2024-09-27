@@ -1,25 +1,25 @@
-use Chioma
+Use Martin
 go
 
-select * from CO
+--select * from Covid
 
 --(A)COUNTRY/CASES
 
 --(1) Top 7 Countries with highest record of Covid 19 cases in their Population.
---select top 7 Name, Cases_cumulative_total from CO
+--select top 7 Name, Cases_cumulative_total from COvid
 --order by Cases_cumulative_total desc
 
 --(2) Top 5 countries with highest record of covid 19 prevalecnce per 100000 Population.
---select top 5 Name, Cases_cumulative_total_per_100000_population from CO
+--select top 5 Name, Cases_cumulative_total_per_100000_population from Covid
 --order by Cases_cumulative_total_per_100000_population desc
 --different population sizes
 
 --(3) top 3 countries with highest record of covid 19 incidence in last 7 days.
---select top 3 Name, Cases_newly_reported_in_last_7_days from CO
+--select top 3 Name, Cases_newly_reported_in_last_7_days from Covid
 --order by Cases_newly_reported_in_last_7_days desc
 
 --(4) top 4 countries with highest record of covid 19 incidence rate in last 7 days per 100000 Population.
---select top 4 Name, Cases_newly_reported_in_last_7_days_per_100000_population from CO
+--select top 4 Name, Cases_newly_reported_in_last_7_days_per_100000_population from Covid
 --order by Cases_newly_reported_in_last_7_days_per_100000_population desc
 
 
@@ -32,7 +32,7 @@ select * from CO
 --	 when Cases_cumulative_total > 100000 then '>100000'
 --	 else 'unknown'
 --	 end as CaseRange,
---  count(Name) No_of_countries from CO
+--  count(Name) No_of_countries from Covid
 --group by
 --     Case 
 --     when Cases_cumulative_total between 0 and 10000 then '0-10000'
@@ -44,7 +44,7 @@ select * from CO
 --order by min(Cases_cumulative_total)
 
 --(6) List of countries without reported cases of covid 19
---select  Name, Cases_cumulative_total from CO
+--select  Name, Cases_cumulative_total from Covid
 --where Cases_cumulative_total = 0
 
 
@@ -52,20 +52,20 @@ select * from CO
 --(B) COUNTRY/DEATHS
 
 --(1) top 3 countries with highest mortality of covid 19 in their population.
---select top 3 Name, Deaths_cumulative_total from CO
+--select top 3 Name, Deaths_cumulative_total from Covid
 --order by Deaths_cumulative_total desc
 
 --(2) top 5 countries with highest mortality rate of covid 19 per 100000 population.
---select top 5 Name, Deaths_cumulative_total_per_100000_population from CO
+--select top 5 Name, Deaths_cumulative_total_per_100000_population from Covid
 --order by Deaths_cumulative_total_per_100000_population desc
 --different population sizes
 
 --(3) top 7 countries with highest 7-day mortality incidence of covid 19.
---select top 7 Name, Deaths_newly_reported_in_last_7_days from CO
+--select top 7 Name, Deaths_newly_reported_in_last_7_days from Covid
 --order by Deaths_newly_reported_in_last_7_days desc
 
 --(4) top 4 countries with highest 7-day covid 19 mortality rate.
---select top 4 Name, Deaths_newly_reported_in_last_7_days_per_100000_population from CO
+--select top 4 Name, Deaths_newly_reported_in_last_7_days_per_100000_population from Covid
 --order by Deaths_newly_reported_in_last_7_days_per_100000_population desc
 
 --(5) comparing number of countries with their particular range of recorded mortality in last 24hrs
@@ -77,7 +77,7 @@ select * from CO
 --	 when Deaths_cumulative_total > 100000 then '>100000'
 --	 else 'unknown'
 --	 end as CaseRange,
---  count(Name) No_of_countries from CO
+--  count(Name) No_of_countries from Covid
 --group by
 --     Case 
 --      when Deaths_cumulative_total between 0 and 10000 then '0-10000'
@@ -89,7 +89,7 @@ select * from CO
 --order by min(Deaths_cumulative_total)
 
 --(6) List of countries without reported mortality of covid 19
---select  Name, Cases_cumulative_total from CO
+--select  Name, Cases_cumulative_total from Covid
 --where Cases_cumulative_total = 0
 
 
@@ -98,23 +98,23 @@ select * from CO
 --(C) REGIONS/CASES
 
 --(1) WHO Regions with Righest Record of Covid 19 Cases in their Population.
---select WHO_Region, sum(Cases_cumulative_total) CasesCumulativeTotal from CO
+--select WHO_Region, sum(Cases_cumulative_total) CasesCumulativeTotal from Covid
 --group by WHO_Region
 --order by CasesCumulativeTotal desc
 
 --(2) WHO Regions with Highest Prevalecnce of Covid 19 per 100000 Population.
---select WHO_Region , sum(Cases_cumulative_total_per_100000_population) CasesCumulativeTotalPer100000Population from CO
+--select WHO_Region , sum(Cases_cumulative_total_per_100000_population) CasesCumulativeTotalPer100000Population from Covid
 --group by WHO_Region
 --order by CasesCumulativeTotalPer100000Population desc
 --different population sizes
 
 ----(3) WHO Region with Highest Incidence of Covid 19 in Last 7 Days.
---select WHO_Region, sum(Cases_newly_reported_in_last_7_days) CasesNewlyReportedInLast7Days from CO
+--select WHO_Region, sum(Cases_newly_reported_in_last_7_days) CasesNewlyReportedInLast7Days from Covid
 --group by WHO_Region
 --order by CasesNewlyReportedInLast7Days desc
 
 --(4) WHO Region with Highest Incidence Rate of Covid 19  in Last 7 Days.
---select WHO_Region, sum(Cases_newly_reported_in_last_7_days_per_100000_population) CasesNewlyReportedInLast7DaysPer100000Population from CO
+--select WHO_Region, sum(Cases_newly_reported_in_last_7_days_per_100000_population) CasesNewlyReportedInLast7DaysPer100000Population from Covid
 --group by WHO_Region
 --order by CasesNewlyReportedInLast7DaysPer100000Population desc
 
@@ -125,7 +125,7 @@ select * from CO
 --	max(Case when Cases_cumulative_total between 10000 and 50000 then Cases_cumulative_total end) '10000-50000',
 --	max(Case when Cases_cumulative_total between 50000 and 100000 then Cases_cumulative_total end) '50000-100000',
 --	max(Case when Cases_cumulative_total > 100000 then Cases_cumulative_total end) '>100000'
---   from CO
+--   from Covid
 --group by WHO_Region
 
 
@@ -135,23 +135,23 @@ select * from CO
 
 
 --(1) WHO Regions with highest record of covid 19 Mortality in their population.
---select WHO_Region, sum(Deaths_cumulative_total) DeathsCumulativeTotal from CO
+--select WHO_Region, sum(Deaths_cumulative_total) DeathsCumulativeTotal from Covid
 --group by WHO_Region
 --order by DeathsCumulativeTotal desc
 
 --(2) WHO Regions with highest mortality rate of covid 19 per 100000 population.
---select WHO_Region , sum(Deaths_cumulative_total_per_100000_population) DeathsCumulativeTotalPer100000Population from CO
+--select WHO_Region , sum(Deaths_cumulative_total_per_100000_population) DeathsCumulativeTotalPer100000Population from Covid
 --group by WHO_Region
 --order by DeathsCumulativeTotalPer100000Population desc
 --different population sizes
 
 ----(3) WHO Region with highest 7-day mortality incidence of covid 19.
---select WHO_Region, sum(Deaths_newly_reported_in_last_7_days) DeathsNewlyReportedInLast7Days from CO
+--select WHO_Region, sum(Deaths_newly_reported_in_last_7_days) DeathsNewlyReportedInLast7Days from Covid
 --group by WHO_Region
 --order by DeathsNewlyReportedInLast7Days desc
 
 --(4) WHO Region with highest 7-day mortality incidence rate of covid 19 per 100000 population.
---select WHO_Region, sum(Deathss_newly_reported_in_last_7_days_per_100000_population) DeathsNewlyReportedInLast7DaysPer100000Population from CO
+--select WHO_Region, sum(Deathss_newly_reported_in_last_7_days_per_100000_population) DeathsNewlyReportedInLast7DaysPer100000Population from Covid
 --group by WHO_Region
 --order by DeathsNewlyReportedInLast7DaysPer100000Population desc
 
@@ -162,5 +162,5 @@ select * from CO
 --	max(Case when Deaths_cumulative_total between 10000 and 50000 then Deaths_cumulative_total end) '10000-50000',
 --	max(Case when Deaths_cumulative_total between 50000 and 100000 then Deaths_cumulative_total end) '50000-100000',
 --	max(Case when Deaths_cumulative_total > 100000 then Deaths_cumulative_total end) '>100000'
---   from CO
+--   from Covid
 --group by WHO_Region
