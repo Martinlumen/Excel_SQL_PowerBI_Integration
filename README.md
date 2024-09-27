@@ -73,5 +73,5 @@ This insight provides a global and regional summary of the COVID-19 situation as
 Contributions are welcome! If you find any issues or improvements, feel free to submit a pull request or open an issue.
 
 ## Acknowledgments
-World Health Organization (WHO) for the dataset.
-Microsoft Power BI, Excel, and SQL for making data analysis accessible
+- World Health Organization (WHO) for the dataset.
+- Microsoft Power BI, Excel, and SQL for making data analysis accessible
