@@ -1,7 +1,7 @@
 # WHO Data Analysis on COVID-19 (2019)
 
 ## Description
-This project involves the analysis of COVID-19 data from the World Health Organization (WHO), focusing on the recorded cases in 2019. The analysis is conducted using a combination of **Excel** for data manipulation, **SQL** for database querying, and **Power BI** for data visualization and dashboard creation.
+This project involves the analysis of COVID-19 data from the World Health Organization (WHO), focusing on the recorded cases and deaths in 2019. The analysis is conducted using a combination of **Excel** for data manipulation, **SQL** for database querying, and **Power BI** for data visualization and dashboard creation.
 
 The primary objective is to extract meaningful insights from the WHO dataset and showcase the spread and impact of COVID-19 globally through interactive reports and visualizations.
 
