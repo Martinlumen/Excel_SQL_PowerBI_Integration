@@ -41,7 +41,7 @@ Power BI Dashboard:
 - **Deaths within the Last 24 Hours**: 3,490
 
 ### Country-Level Analysis
-- **Highest Total Cases (Prevalence)**: The highest number of COVID-19 cases globally was recorded at 0.56 billion.
+- **Highest Total Cases (Prevalence)**: The highest number of COVID-19 cases was recorded at 0.56 billion by the country, Global.
 - **Case Range**: Approximately 221 countries reported between 0 to 10,000 cases, while 4 countries reported no cases.
 - **Highest Incidence**: Global remains the country with the highest incidence of COVID-19 over the last 7 days.
 - **Highest Incidence Rate per 100,000 Population**: Pitcairn Island recorded the highest incidence rate within the last 7 days.
