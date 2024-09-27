@@ -58,7 +58,7 @@ Power BI Dashboard:
 - **Region with Highest Total Cases (Prevalence)**: North America (NA) reported the highest number of cases at 563 million.
 - **Case Range by Region**: Only North America reported more than 500,000 cases.
 - **Incidence in the Last 7 Days**: North America continues to lead in new cases reported over the last 7 days.
--**Highest Incidence Rate per 100,000 Population**: Europe recorded the highest incidence rate in the last 7 days.
+- **Highest Incidence Rate per 100,000 Population**: Europe recorded the highest incidence rate in the last 7 days.
 - **Highest Prevalence Rate per 100,000 Population**: Europe also leads in terms of prevalence rate per 100,000 population.
 
 ### Mortality (Deaths) by Region
