@@ -25,5 +25,5 @@ The primary objective is to extract meaningful insights from the WHO dataset and
 ### Steps:
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/WHO_Covid19_Data_Analysis.git
+   git clone https://github.com/Martinlumen/Excel_SQL_PowerBI_Integration.git
    
