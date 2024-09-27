@@ -33,9 +33,9 @@ Power BI Dashboard:
 ## Insights
 
 ### Global Overview
-**Total Cases**: 1 billion
-**Cases within the Last 7 Days**: 13 million
-**Cases within the Last 24 Hours**: 2 million
+- **Total Cases**: 1 billion
+- **Cases within the Last 7 Days**: 13 million
+- **Cases within the Last 24 Hours**: 2 million
 **Total Deaths**: 13 million
 **Deaths within the Last 7 Days**: 23,000
 **Deaths within the Last 24 Hours**: 3,490
