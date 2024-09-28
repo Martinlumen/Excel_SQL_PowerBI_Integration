@@ -42,8 +42,9 @@ The aim of this research is to analyze the global spread and impact of COVID-19 
   - Cases within the last 7 days and 24 hours  
   - Deaths within the last 7 days and 24 hours  
 
-- **Summary Statistics**:  
- - **Global**:  
+- **Summary Statistics**:
+
+  - **Global**:  
   - **Total cases**: 1 billion  
   - **Cases within the last 7 days**: 13M  
   - **Cases within the last 24 hours**: 2M  
@@ -65,26 +66,26 @@ The aim of this research is to analyze the global spread and impact of COVID-19 
 
 ### **Key Findings**
 
-   **Countries (Cases)**:
+**Countries (Cases)**:
 - The country with the highest total cases (prevalence) is **Global**, with 0.56bn cases.
 - **221 countries** recorded between 0-10,000 cases.
 - **4 countries** had no recorded COVID-19 cases.
 - **Pitcairn Island** has the highest incidence rate of COVID-19 per 100,000 population over the last 7 days.
 - **France Island** had the highest prevalence of COVID-19 per 100,000 population.
 
-   **Countries (Deaths)**:
+**Countries (Deaths)**:
 - The country with the highest total deaths (mortality) is **Global**, with 6M deaths.
 - **215 countries** recorded between 0-10 deaths.
 - **8 countries** had no recorded deaths.
 - **Germany** had the highest mortality rate per 100,000 population within the last 7 days.
 - **Peru Island** had the highest overall mortality rate per 100,000 population.
 
-   **Regions (Cases)**:
+**Regions (Cases)**:
 - The region with the highest total cases (prevalence) is **North America (NA)**, with 563M cases.
 - **NA** also recorded the highest incidence of cases within the last 7 days.
 - **Europe** had the highest incidence rate per 100,000 population in the last 7 days.
 
-   **Regions (Deaths)**:
+**Regions (Deaths)**:
 - The region with the highest total deaths (prevalence) is **North America (NA)**, with 6.4M deaths.
 - **NA** still has the highest mortality of COVID-19 within the last 7 days.
 - **Europe** had the highest mortality rate per 100,000 population over the last 7 days.
