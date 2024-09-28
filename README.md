@@ -42,9 +42,8 @@ The aim of this research is to analyze the global spread and impact of COVID-19 
   - Cases within the last 7 days and 24 hours  
   - Deaths within the last 7 days and 24 hours  
 
-- **Summary Statistics**:
+- **Summary Statistics (Global)**:
 
-      - **Global**:  
   - **Total cases**: 1 billion  
   - **Cases within the last 7 days**: 13M  
   - **Cases within the last 24 hours**: 2M  
