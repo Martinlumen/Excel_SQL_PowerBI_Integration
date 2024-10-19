@@ -1,5 +1,22 @@
 # **WHO Data Analysis on COVID-19 (2019)**
 
+### **Table of Contents**
+- Introduction 
+- Aim
+- Tools Used
+- Project Structure
+- Usage
+- Data Overview
+- Data Cleaning and Preprocessing
+- Data Visualization 
+- Key Findings
+- Correlation Analysis 
+- Suggestions 
+- Recommendations
+- Limitations
+- Conclusion
+- Contributing
+
 ### **Introduction**
 The COVID-19 pandemic has impacted countries and regions globally, with varying levels of intensity. This report analyzes the WHO dataset on COVID-19 for 2019, focusing on global cases and deaths, both cumulative and recent. The objective is to identify trends, correlations, and provide recommendations based on key insights from the data.
 
