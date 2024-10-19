@@ -17,7 +17,8 @@ The aim of this research is to analyze the global spread and impact of COVID-19 
 ### **Project Structure**
 - `data/WHO-COVID-19-global-table-data.csv`: Contains the WHO COVID-19 dataset.
 - `Sql_queries/SQL Queries.txt`: SQL queries used for data analysis.
-- `Power_bi_report/POWER BI PROJECT PDF.pdf`: Power BI report file (`.pbix`) containing the dashboards.
+- `Power_bi_report/POWER BI PROJECT PDF.pdf`: Power BI report file (`.pdf`) containing the dashboards.
+- `Power_bi_report/WHO_Covid19_Dashboard.pbix`: Power BI report file (`.pbix`) containing the Dashboards.
 - `Excel_anlysis/WHO_Covid19_Analysis.csv`: Excel workbook with data cleaning and preliminary analysis.
 
 
