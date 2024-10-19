@@ -16,6 +16,7 @@
 - Limitations
 - Conclusion
 - Contributing
+- Acknowledgement
 
 ### **Introduction**
 The COVID-19 pandemic has impacted countries and regions globally, with varying levels of intensity. This report analyzes the WHO dataset on COVID-19 for 2019, focusing on global cases and deaths, both cumulative and recent. The objective is to identify trends, correlations, and provide recommendations based on key insights from the data.
