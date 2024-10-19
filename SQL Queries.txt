@@ -1,7 +1,7 @@
 Use Martin
 go
 
---select * from Covid
+--select * from Covid 
 
 --(A)COUNTRY/CASES
 
